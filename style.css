@@ -1,0 +1,83 @@
+.wrap-all {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.timer-end {
+	display: none;
+}
+
+.reset-button {
+	background-color: rgb(243, 39, 39);
+	color: white;
+	margin-top: 0.5rem;
+	/* width: 100%; */
+	padding: 20px;
+	outline: none;
+}
+
+.reset-button:hover {
+	background-color: rgb(255, 9, 9);
+	transform: scale(1.02);
+	transition: all .2s linear;
+}
+
+.dial {
+	height: 400px;
+	width: 400px;
+}
+
+.timer {
+	position: relative;
+	display: inline-block;
+}
+
+* {
+	font: inherit;
+}
+
+body {
+	font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica,
+		Arial, sans-serif;
+}
+
+.timer input {
+	display: block;
+	border: 1px black solid;
+	width: 240px;
+	font-size: 90px;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+
+.timer button {
+	border: none;
+	font-size: 36px;
+	cursor: pointer;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.controls {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
